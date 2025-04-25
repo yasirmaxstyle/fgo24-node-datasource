@@ -1,92 +1,113 @@
-{
-    "food": [
-        {
-            "name": "Fried Rice",
-            "price": 30000
-        },
-        {
-            "name": "Empal Gentong",
-            "price": 25000
-        },
-        {
-            "name": "Roasted Duck",
-            "price": 35000
-        }
-    ],
-    "beverages": {
-        "signature": [
-            {
-                "name": "Maxstyle Coffee",
-                "price": 37000
-            },
-            {
-                "name": "Maxstyle Tea",
-                "price": 33000
-            }
-        ],
-        "coffee": [
-            {
-                "name": "Espresso",
-                "price": 15000
-            },
-            {
-                "name": "Americano",
-                "price": 20000
-            },
-            {
-                "name": "Cappuccino",
-                "price": 25000
-            },
-            {
-                "name": "Caffe Latte",
-                "price": 25000
-            },
-            {
-                "name": "Caramel Macchicato",
-                "price": 28000
-            }
-        ],
-        "nonCoffee": [
-            {
-                "name": "Hot Chocolate",
-                "price": 20000
-            },
-            {
-                "name": "Matcha Latte",
-                "price": 22000
-            },
-            {
-                "name": "Iced Lemon Tea",
-                "price": 15000
-            }
-        ]
-    },
-    "dessert": [
-        {
-            "name": "Apple Pie",
-            "price": 25000
-        },
-        {
-            "name": "Straberry Tart",
-            "price": 30000
-        },
-        {
-            "name": "Muffin",
-            "price": 20000
-        }
-    ],
-    "snacks": [
-        {
-            "name": "Fried Banana",
-            "price": 15000
-        },
-        {
-            "name": "Shiny Moon",
-            "price": 25000
-        },
-        {
-            "name": "Concrete Mixer Banana",
-            "price": 20000
-        }
+[
+  {
+    "name": "Food",
+    "item": [
+      {
+        "name": "Fried Rice",
+        "price": 30000
+      },
+      {
+        "name": "Empal Gentong",
+        "price": 25000
+      },
+      {
+        "name": "Roasted Duck",
+        "price": 35000
+      }
     ]
-}
+  },
+  {
+    "name": "Beverages",
+    "item": [
+      {
+        "name": "Signature",
+        "signature": [
+          {
+            "name": "Maxstyle Coffee",
+            "price": 37000
+          },
+          {
+            "name": "Maxstyle Tea",
+            "price": 33000
+          }
+        ]
+      },
+      {
+        "name": "Coffee",
+        "item": [
+          {
+            "name": "Espresso",
+            "price": 15000
+          },
+          {
+            "name": "Americano",
+            "price": 20000
+          },
+          {
+            "name": "Cappuccino",
+            "price": 25000
+          },
+          {
+            "name": "Caffe Latte",
+            "price": 25000
+          },
+          {
+            "name": "Caramel Macchicato",
+            "price": 28000
+          }
+        ]
+      },
+      {
+        "name": "Non Coffee",
+        "item": [
+          {
+            "name": "Hot Chocolate",
+            "price": 20000
+          },
+          {
+            "name": "Matcha Latte",
+            "price": 22000
+          },
+          {
+            "name": "Iced Lemon Tea",
+            "price": 15000
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Dessert",
+    "item": [
+      {
+        "name": "Apple Pie",
+        "price": 25000
+      },
+      {
+        "name": "Straberry Tart",
+        "price": 30000
+      },
+      {
+        "name": "Muffin",
+        "price": 20000
+      }
+    ]
+  },
+  {
+    "name": "Snacks",
+    "item": [
+      {
+        "name": "Fried Banana",
+        "price": 15000
+      },
+      {
+        "name": "Shiny Moon",
+        "price": 25000
+      },
+      {
+        "name": "Concrete Mixer Banana",
+        "price": 20000
+      }
+    ]
+  }
+]
