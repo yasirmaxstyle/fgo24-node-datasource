@@ -6,7 +6,7 @@
     "contact": {
       "phone": "+62-21-7654321",
       "email": "infokopi@masxtyle.com",
-      "address": "Jl. Margonda Raya No. 123, Depok"
+      "address": "Jl. Maxstyle No. 777, Depok"
     },
     "operating_hours": {
       "monday_friday": "06:00 - 22:00",
@@ -15,945 +15,562 @@
   },
   "home_menu": [
     {
-      "id": "home",
-      "title": "Home",
-      "icon": "house",
-      "description": "Welcome to our coffeeshop"
+      "id": "01",
+      "title": "Menu"
     },
     {
-      "id": "menu",
-      "title": "Menu",
-      "icon": "menu",
-      "description": "Browse our full menu"
+      "id": "02",
+      "title": "Search Menu"
     },
     {
-      "id": "order",
-      "title": "Order Now",
-      "icon": "shopping-cart",
-      "description": "Place your order online"
+      "id": "03",
+      "title": "Filter Menu"
     },
     {
-      "id": "about",
-      "title": "About Us",
-      "icon": "info",
-      "description": "Learn about our story"
+      "id": "04",
+      "title": "View Cart"
     },
     {
-      "id": "location",
-      "title": "Location",
-      "icon": "map-pin",
-      "description": "Find us on the map"
+      "id": "05",
+      "title": "Checkout"
     },
     {
-      "id": "contact",
-      "title": "Contact",
-      "icon": "phone",
-      "description": "Get in touch with us"
+      "id": "00",
+      "title": "Exit"
     }
   ],
   "menu_categories": [
     {
-      "id": "espresso_drinks",
-      "name": "Espresso Drinks",
-      "description": "Premium espresso-based beverages",
+      "id": "CF",
+      "name": "Coffee",
       "items": [
         {
-          "id": "espresso_single",
-          "name": "Single Espresso",
-          "description": "Rich, concentrated coffee shot",
-          "price": 15000,
-          "category": "espresso_drinks",
-          "available": true,
-          "hot": true,
-          "iced": false
-        },
-        {
-          "id": "espresso_double",
-          "name": "Double Espresso",
-          "description": "Double shot of pure espresso",
-          "price": 25000,
-          "category": "espresso_drinks",
-          "available": true,
-          "hot": true,
-          "iced": false
-        },
-        {
-          "id": "americano",
-          "name": "Americano",
-          "description": "Espresso with hot water",
-          "price": 20000,
-          "category": "espresso_drinks",
-          "available": true,
-          "hot": true,
-          "iced": true
-        },
-        {
-          "id": "cappuccino",
-          "name": "Cappuccino",
-          "description": "Espresso with steamed milk and foam",
-          "price": 28000,
-          "category": "espresso_drinks",
-          "available": true,
-          "hot": true,
-          "iced": true
-        },
-        {
-          "id": "latte",
-          "name": "Caffè Latte",
-          "description": "Espresso with steamed milk",
-          "price": 30000,
-          "category": "espresso_drinks",
-          "available": true,
-          "hot": true,
-          "iced": true
-        },
-        {
-          "id": "macchiato",
-          "name": "Macchiato",
-          "description": "Espresso marked with milk foam",
-          "price": 32000,
-          "category": "espresso_drinks",
-          "available": true,
-          "hot": true,
-          "iced": true
-        },
-        {
-          "id": "mocha",
-          "name": "Caffè Mocha",
-          "description": "Espresso with chocolate and steamed milk",
-          "price": 35000,
-          "category": "espresso_drinks",
-          "available": true,
-          "hot": true,
-          "iced": true
-        },
-        {
-          "id": "flat_white",
-          "name": "Flat White",
-          "description": "Double espresso with microfoam milk",
-          "price": 33000,
-          "category": "espresso_drinks",
-          "available": true,
-          "hot": true,
-          "iced": false
-        },
-        {
-          "id": "cortado",
-          "name": "Cortado",
-          "description": "Equal parts espresso and warm milk",
-          "price": 29000,
-          "category": "espresso_drinks",
-          "available": true,
-          "hot": true,
-          "iced": false
-        },
-        {
-          "id": "gibraltar",
-          "name": "Gibraltar",
-          "description": "Double espresso with steamed milk in glass",
-          "price": 31000,
-          "category": "espresso_drinks",
-          "available": true,
-          "hot": true,
-          "iced": false
-        },
-        {
-          "id": "long_black",
-          "name": "Long Black",
-          "description": "Hot water with double espresso",
-          "price": 24000,
-          "category": "espresso_drinks",
-          "available": true,
-          "hot": true,
-          "iced": false
-        },
-        {
-          "id": "breve",
-          "name": "Caffè Breve",
-          "description": "Espresso with steamed half-and-half",
-          "price": 36000,
-          "category": "espresso_drinks",
-          "available": true,
-          "hot": true,
-          "iced": true
-        }
-      ]
-    },
-    {
-      "id": "specialty_coffee",
-      "name": "Specialty Coffee",
-      "description": "Unique coffee creations and local favorites",
-      "items": [
-        {
-          "id": "kopi_tubruk",
-          "name": "Kopi Tubruk",
-          "description": "Traditional Indonesian ground coffee",
+          "id": "CF001",
+          "name": "Espresso Single Shot",
+          "description": "Strong and bold single shot of premium espresso beans",
           "price": 18000,
-          "category": "specialty_coffee",
+          "category": "coffee",
           "available": true,
-          "hot": true,
-          "iced": false
+          "temperature": "hot",
+          "rating": 4.7
         },
         {
-          "id": "kopi_luwak",
-          "name": "Kopi Luwak",
-          "description": "Premium civet coffee",
-          "price": 85000,
-          "category": "specialty_coffee",
-          "available": true,
-          "hot": true,
-          "iced": false
-        },
-        {
-          "id": "kopi_aceh",
-          "name": "Kopi Aceh Gayo",
-          "description": "Single origin Aceh coffee",
-          "price": 25000,
-          "category": "specialty_coffee",
-          "available": true,
-          "hot": true,
-          "iced": true
-        },
-        {
-          "id": "kopi_toraja",
-          "name": "Kopi Toraja",
-          "description": "Premium Sulawesi coffee",
-          "price": 28000,
-          "category": "specialty_coffee",
-          "available": true,
-          "hot": true,
-          "iced": true
-        },
-        {
-          "id": "kopi_joss",
-          "name": "Kopi Joss",
-          "description": "Yogyakarta style coffee with charcoal",
+          "id": "CF002",
+          "name": "Americano",
+          "description": "Classic espresso diluted with hot water for a smooth taste",
           "price": 22000,
-          "category": "specialty_coffee",
+          "category": "coffee",
           "available": true,
-          "hot": true,
-          "iced": false
+          "temperature": "hot/iced",
+          "rating": 4.3
         },
         {
-          "id": "vietnamese_coffee",
-          "name": "Vietnamese Drip Coffee",
-          "description": "Traditional Vietnamese filter coffee",
-          "price": 24000,
-          "category": "specialty_coffee",
-          "available": true,
-          "hot": true,
-          "iced": true
-        },
-        {
-          "id": "nitro_coffee",
-          "name": "Nitro Cold Brew",
-          "description": "Nitrogen-infused cold brew coffee",
-          "price": 32000,
-          "category": "specialty_coffee",
-          "available": true,
-          "hot": false,
-          "iced": true
-        },
-        {
-          "id": "pour_over_v60",
-          "name": "Pour Over V60",
-          "description": "Hand-dripped coffee with V60 method",
-          "price": 35000,
-          "category": "specialty_coffee",
-          "available": true,
-          "hot": true,
-          "iced": false
-        },
-        {
-          "id": "chemex",
-          "name": "Chemex Coffee",
-          "description": "Smooth filtered coffee from Chemex",
-          "price": 38000,
-          "category": "specialty_coffee",
-          "available": true,
-          "hot": true,
-          "iced": false
-        },
-        {
-          "id": "aeropress",
-          "name": "AeroPress Coffee",
-          "description": "Pressure-brewed coffee",
-          "price": 33000,
-          "category": "specialty_coffee",
-          "available": true,
-          "hot": true,
-          "iced": false
-        },
-        {
-          "id": "cold_brew",
-          "name": "Cold Brew Coffee",
-          "description": "Slow-steeped cold coffee",
+          "id": "CF003",
+          "name": "Cappuccino",
+          "description": "Perfect balance of espresso, steamed milk, and milk foam",
           "price": 28000,
-          "category": "specialty_coffee",
+          "category": "coffee",
           "available": true,
-          "hot": false,
-          "iced": true
+          "temperature": "hot/iced",
+          "rating": 4.6
         },
         {
-          "id": "bulletproof",
-          "name": "Bulletproof Coffee",
-          "description": "Coffee with butter and MCT oil",
-          "price": 42000,
-          "category": "specialty_coffee",
+          "id": "CF004",
+          "name": "Latte",
+          "description": "Smooth espresso with steamed milk and a light layer of foam",
+          "price": 30000,
+          "category": "coffee",
           "available": true,
-          "hot": true,
-          "iced": false
+          "temperature": "hot/iced",
+          "rating": 4.5
+        },
+        {
+          "id": "CF005",
+          "name": "Mocha",
+          "description": "Rich espresso with chocolate syrup and steamed milk",
+          "price": 35000,
+          "category": "coffee",
+          "available": true,
+          "temperature": "hot/iced",
+          "rating": 4.4
+        },
+        {
+          "id": "CF006",
+          "name": "Macchiato",
+          "description": "Espresso marked with a dollop of steamed milk foam",
+          "price": 26000,
+          "category": "coffee",
+          "available": true,
+          "temperature": "hot/iced",
+          "rating": 4.2
+        },
+        {
+          "id": "CF007",
+          "name": "Flat White",
+          "description": "Double shot espresso with microfoam steamed milk",
+          "price": 32000,
+          "category": "coffee",
+          "available": true,
+          "temperature": "hot",
+          "rating": 4.8
+        },
+        {
+          "id": "CF008",
+          "name": "Kopi Tubruk",
+          "description": "Traditional Indonesian ground coffee with sugar",
+          "price": 15000,
+          "category": "coffee",
+          "available": true,
+          "temperature": "hot",
+          "rating": 4.1
+        },
+        {
+          "id": "CF009",
+          "name": "Vietnamese Drip Coffee",
+          "description": "Strong coffee brewed through a traditional Vietnamese filter",
+          "price": 25000,
+          "category": "coffee",
+          "available": false,
+          "temperature": "hot/iced",
+          "rating": 4.3
+        },
+        {
+          "id": "CF010",
+          "name": "Cold Brew",
+          "description": "Smooth and less acidic coffee brewed with cold water",
+          "price": 27000,
+          "category": "coffee",
+          "available": true,
+          "temperature": "iced",
+          "rating": 4.6
         }
       ]
     },
     {
-      "id": "non_coffee",
-      "name": "Non-Coffee Beverages",
-      "description": "Tea, chocolate, and other hot beverages",
+      "id": "NC",
+      "name": "Non Coffee",
       "items": [
         {
-          "id": "teh_tarik",
+          "id": "NC001",
+          "name": "Matcha Latte",
+          "description": "Premium Japanese matcha powder with steamed milk",
+          "price": 33000,
+          "category": "non_coffee",
+          "available": true,
+          "temperature": "hot/iced",
+          "rating": 4.4
+        },
+        {
+          "id": "NC002",
+          "name": "Chocolate Milk",
+          "description": "Rich and creamy chocolate with fresh milk",
+          "price": 24000,
+          "category": "non_coffee",
+          "available": true,
+          "temperature": "hot/iced",
+          "rating": 4.2
+        },
+        {
+          "id": "NC003",
+          "name": "Chai Tea Latte",
+          "description": "Spiced tea blend with steamed milk and honey",
+          "price": 29000,
+          "category": "non_coffee",
+          "available": true,
+          "temperature": "hot/iced",
+          "rating": 4.3
+        },
+        {
+          "id": "NC004",
+          "name": "Earl Grey Tea",
+          "description": "Classic bergamot-flavored black tea",
+          "price": 20000,
+          "category": "non_coffee",
+          "available": true,
+          "temperature": "hot",
+          "rating": 4.1
+        },
+        {
+          "id": "NC005",
+          "name": "Green Tea",
+          "description": "Fresh and light Japanese green tea",
+          "price": 18000,
+          "category": "non_coffee",
+          "available": true,
+          "temperature": "hot/iced",
+          "rating": 4.0
+        },
+        {
+          "id": "NC006",
+          "name": "Lemon Honey Tea",
+          "description": "Refreshing tea with fresh lemon and natural honey",
+          "price": 22000,
+          "category": "non_coffee",
+          "available": true,
+          "temperature": "hot/iced",
+          "rating": 4.2
+        },
+        {
+          "id": "NC007",
           "name": "Teh Tarik",
           "description": "Malaysian pulled tea with condensed milk",
-          "price": 15000,
+          "price": 21000,
           "category": "non_coffee",
           "available": true,
-          "hot": true,
-          "iced": true
+          "temperature": "hot",
+          "rating": 4.5
         },
         {
-          "id": "green_tea",
-          "name": "Green Tea",
-          "description": "Premium Japanese green tea",
-          "price": 18000,
+          "id": "NC008",
+          "name": "Vanilla Milk",
+          "description": "Creamy milk with vanilla extract and a touch of sweetness",
+          "price": 23000,
           "category": "non_coffee",
           "available": true,
-          "hot": true,
-          "iced": true
+          "temperature": "hot/iced",
+          "rating": 3.9
         },
         {
-          "id": "earl_grey",
-          "name": "Earl Grey Tea",
-          "description": "Classic English breakfast tea",
-          "price": 20000,
-          "category": "non_coffee",
-          "available": true,
-          "hot": true,
-          "iced": true
-        },
-        {
-          "id": "chamomile",
-          "name": "Chamomile Tea",
-          "description": "Relaxing herbal tea",
-          "price": 22000,
-          "category": "non_coffee",
-          "available": true,
-          "hot": true,
-          "iced": false
-        },
-        {
-          "id": "hot_chocolate",
-          "name": "Hot Chocolate",
-          "description": "Rich Belgian chocolate drink",
+          "id": "NC009",
+          "name": "Strawberry Milk",
+          "description": "Fresh milk with natural strawberry flavor",
           "price": 25000,
           "category": "non_coffee",
-          "available": true,
-          "hot": true,
-          "iced": true
+          "available": false,
+          "temperature": "iced",
+          "rating": 4.1
         },
         {
-          "id": "matcha_latte",
-          "name": "Matcha Latte",
-          "description": "Japanese green tea powder with milk",
-          "price": 32000,
-          "category": "non_coffee",
-          "available": true,
-          "hot": true,
-          "iced": true
-        },
-        {
-          "id": "chai_latte",
-          "name": "Chai Latte",
-          "description": "Spiced tea with steamed milk",
-          "price": 28000,
-          "category": "non_coffee",
-          "available": true,
-          "hot": true,
-          "iced": true
-        },
-        {
-          "id": "lemon_tea",
-          "name": "Lemon Tea",
-          "description": "Black tea with fresh lemon",
-          "price": 16000,
-          "category": "non_coffee",
-          "available": true,
-          "hot": true,
-          "iced": true
-        },
-        {
-          "id": "ginger_tea",
-          "name": "Ginger Tea",
-          "description": "Warming ginger herbal tea",
-          "price": 18000,
-          "category": "non_coffee",
-          "available": true,
-          "hot": true,
-          "iced": false
-        },
-        {
-          "id": "rooibos",
-          "name": "Rooibos Tea",
-          "description": "Caffeine-free South African red tea",
-          "price": 20000,
-          "category": "non_coffee",
-          "available": true,
-          "hot": true,
-          "iced": true
-        },
-        {
-          "id": "peppermint",
-          "name": "Peppermint Tea",
-          "description": "Refreshing mint herbal tea",
-          "price": 17000,
-          "category": "non_coffee",
-          "available": true,
-          "hot": true,
-          "iced": true
-        },
-        {
-          "id": "turmeric_latte",
-          "name": "Turmeric Latte",
-          "description": "Golden milk with turmeric and spices",
-          "price": 30000,
-          "category": "non_coffee",
-          "available": true,
-          "hot": true,
-          "iced": true
-        }
-      ]
-    },
-    {
-      "id": "cold_beverages",
-      "name": "Cold Beverages",
-      "description": "Refreshing iced drinks and smoothies",
-      "items": [
-        {
-          "id": "iced_lemon_tea",
-          "name": "Iced Lemon Tea",
-          "description": "Refreshing iced tea with lemon",
-          "price": 18000,
-          "category": "cold_beverages",
-          "available": true,
-          "hot": false,
-          "iced": true
-        },
-        {
-          "id": "es_teh_manis",
-          "name": "Es Teh Manis",
-          "description": "Indonesian sweet iced tea",
-          "price": 12000,
-          "category": "cold_beverages",
-          "available": true,
-          "hot": false,
-          "iced": true
-        },
-        {
-          "id": "es_jeruk",
-          "name": "Es Jeruk",
-          "description": "Fresh orange juice with ice",
-          "price": 15000,
-          "category": "cold_beverages",
-          "available": true,
-          "hot": false,
-          "iced": true
-        },
-        {
-          "id": "lemonade",
-          "name": "Fresh Lemonade",
-          "description": "Freshly squeezed lemon juice",
-          "price": 17000,
-          "category": "cold_beverages",
-          "available": true,
-          "hot": false,
-          "iced": true
-        },
-        {
-          "id": "mango_smoothie",
-          "name": "Mango Smoothie",
-          "description": "Tropical mango blend",
-          "price": 28000,
-          "category": "cold_beverages",
-          "available": true,
-          "hot": false,
-          "iced": true
-        },
-        {
-          "id": "banana_smoothie",
-          "name": "Banana Smoothie",
-          "description": "Creamy banana blend with milk",
-          "price": 25000,
-          "category": "cold_beverages",
-          "available": true,
-          "hot": false,
-          "iced": true
-        },
-        {
-          "id": "avocado_juice",
-          "name": "Avocado Juice",
-          "description": "Creamy avocado blend",
-          "price": 30000,
-          "category": "cold_beverages",
-          "available": true,
-          "hot": false,
-          "iced": true
-        },
-        {
-          "id": "watermelon_juice",
-          "name": "Watermelon Juice",
-          "description": "Fresh watermelon juice",
-          "price": 20000,
-          "category": "cold_beverages",
-          "available": true,
-          "hot": false,
-          "iced": true
-        },
-        {
-          "id": "coconut_water",
-          "name": "Fresh Coconut Water",
-          "description": "Natural coconut water",
-          "price": 22000,
-          "category": "cold_beverages",
-          "available": true,
-          "hot": false,
-          "iced": true
-        },
-        {
-          "id": "es_cendol",
-          "name": "Es Cendol",
-          "description": "Traditional Indonesian dessert drink",
-          "price": 18000,
-          "category": "cold_beverages",
-          "available": true,
-          "hot": false,
-          "iced": true
-        },
-        {
-          "id": "strawberry_smoothie",
-          "name": "Strawberry Smoothie",
-          "description": "Sweet strawberry blend",
-          "price": 32000,
-          "category": "cold_beverages",
-          "available": true,
-          "hot": false,
-          "iced": true
-        },
-        {
-          "id": "mixed_fruit_juice",
-          "name": "Mixed Fruit Juice",
-          "description": "Combination of seasonal fruits",
-          "price": 26000,
-          "category": "cold_beverages",
-          "available": true,
-          "hot": false,
-          "iced": true
-        }
-      ]
-    },
-    {
-      "id": "pastries",
-      "name": "Pastries & Baked Goods",
-      "description": "Fresh baked pastries and breads",
-      "items": [
-        {
-          "id": "croissant_plain",
-          "name": "Plain Croissant",
-          "description": "Buttery French pastry",
-          "price": 18000,
-          "category": "pastries",
-          "available": true,
-          "vegetarian": true
-        },
-        {
-          "id": "croissant_chocolate",
-          "name": "Chocolate Croissant",
-          "description": "Croissant filled with chocolate",
-          "price": 22000,
-          "category": "pastries",
-          "available": true,
-          "vegetarian": true
-        },
-        {
-          "id": "croissant_almond",
-          "name": "Almond Croissant",
-          "description": "Croissant with almond filling",
-          "price": 25000,
-          "category": "pastries",
-          "available": true,
-          "vegetarian": true
-        },
-        {
-          "id": "danish_berry",
-          "name": "Berry Danish",
-          "description": "Flaky pastry with berry filling",
-          "price": 20000,
-          "category": "pastries",
-          "available": true,
-          "vegetarian": true
-        },
-        {
-          "id": "muffin_blueberry",
-          "name": "Blueberry Muffin",
-          "description": "Moist muffin with fresh blueberries",
-          "price": 16000,
-          "category": "pastries",
-          "available": true,
-          "vegetarian": true
-        },
-        {
-          "id": "muffin_chocolate",
-          "name": "Chocolate Chip Muffin",
-          "description": "Classic chocolate chip muffin",
-          "price": 17000,
-          "category": "pastries",
-          "available": true,
-          "vegetarian": true
-        },
-        {
-          "id": "scone_plain",
-          "name": "Plain Scone",
-          "description": "Traditional British scone",
-          "price": 15000,
-          "category": "pastries",
-          "available": true,
-          "vegetarian": true
-        },
-        {
-          "id": "scone_raisin",
-          "name": "Raisin Scone",
-          "description": "Scone with sweet raisins",
-          "price": 17000,
-          "category": "pastries",
-          "available": true,
-          "vegetarian": true
-        },
-        {
-          "id": "cinnamon_roll",
-          "name": "Cinnamon Roll",
-          "description": "Sweet roll with cinnamon and glaze",
+          "id": "NC010",
+          "name": "Bandung",
+          "description": "Traditional pink drink with rose syrup and milk",
           "price": 19000,
-          "category": "pastries",
+          "category": "non_coffee",
           "available": true,
-          "vegetarian": true
-        },
-        {
-          "id": "bagel_plain",
-          "name": "Plain Bagel",
-          "description": "Traditional New York style bagel",
-          "price": 12000,
-          "category": "pastries",
-          "available": true,
-          "vegetarian": true
-        },
-        {
-          "id": "bagel_sesame",
-          "name": "Sesame Bagel",
-          "description": "Bagel topped with sesame seeds",
-          "price": 14000,
-          "category": "pastries",
-          "available": true,
-          "vegetarian": true
-        },
-        {
-          "id": "donut_glazed",
-          "name": "Glazed Donut",
-          "description": "Classic glazed yeast donut",
-          "price": 13000,
-          "category": "pastries",
-          "available": true,
-          "vegetarian": true
+          "temperature": "iced",
+          "rating": 3.8
         }
       ]
     },
     {
-      "id": "light_meals",
-      "name": "Light Meals",
-      "description": "Sandwiches, salads, and light bites",
+      "id": "PS",
+      "name": "Pastries",
       "items": [
         {
-          "id": "sandwich_club",
-          "name": "Club Sandwich",
-          "description": "Triple-decker with chicken, bacon, lettuce, tomato",
-          "price": 45000,
-          "category": "light_meals",
+          "id": "PS001",
+          "name": "Croissant",
+          "description": "Buttery and flaky French pastry",
+          "price": 28000,
+          "category": "pastries",
           "available": true,
-          "vegetarian": false
+          "temperature": "room temperature",
+          "rating": 4.4
         },
         {
-          "id": "sandwich_tuna",
-          "name": "Tuna Sandwich",
-          "description": "Tuna salad with lettuce on whole grain bread",
-          "price": 35000,
-          "category": "light_meals",
-          "available": true,
-          "vegetarian": false
-        },
-        {
-          "id": "sandwich_veggie",
-          "name": "Vegetarian Sandwich",
-          "description": "Grilled vegetables with hummus",
+          "id": "PS002",
+          "name": "Pain au Chocolat",
+          "description": "Croissant filled with dark chocolate",
           "price": 32000,
-          "category": "light_meals",
+          "category": "pastries",
           "available": true,
-          "vegetarian": true
+          "temperature": "room temperature",
+          "rating": 4.6
         },
         {
-          "id": "sandwich_blt",
-          "name": "BLT Sandwich",
-          "description": "Bacon, lettuce, tomato on toasted bread",
-          "price": 38000,
-          "category": "light_meals",
-          "available": true,
-          "vegetarian": false
-        },
-        {
-          "id": "panini_caprese",
-          "name": "Caprese Panini",
-          "description": "Mozzarella, tomato, basil on ciabatta",
-          "price": 42000,
-          "category": "light_meals",
-          "available": true,
-          "vegetarian": true
-        },
-        {
-          "id": "panini_chicken",
-          "name": "Chicken Panini",
-          "description": "Grilled chicken with pesto and cheese",
-          "price": 48000,
-          "category": "light_meals",
-          "available": true,
-          "vegetarian": false
-        },
-        {
-          "id": "salad_caesar",
-          "name": "Caesar Salad",
-          "description": "Romaine lettuce with Caesar dressing",
+          "id": "PS003",
+          "name": "Danish Pastry",
+          "description": "Sweet pastry with cream cheese and fruit topping",
           "price": 35000,
-          "category": "light_meals",
+          "category": "pastries",
           "available": true,
-          "vegetarian": true
+          "temperature": "room temperature",
+          "rating": 4.3
         },
         {
-          "id": "salad_greek",
-          "name": "Greek Salad",
-          "description": "Mixed greens with feta and olives",
+          "id": "PS004",
+          "name": "Almond Croissant",
+          "description": "Croissant filled with almond cream and topped with sliced almonds",
           "price": 38000,
-          "category": "light_meals",
+          "category": "pastries",
           "available": true,
-          "vegetarian": true
+          "temperature": "room temperature",
+          "rating": 4.7
         },
         {
-          "id": "salad_chicken",
-          "name": "Chicken Salad",
-          "description": "Grilled chicken on mixed greens",
-          "price": 42000,
-          "category": "light_meals",
+          "id": "PS005",
+          "name": "Cinnamon Roll",
+          "description": "Sweet spiral pastry with cinnamon and sugar glaze",
+          "price": 30000,
+          "category": "pastries",
           "available": true,
-          "vegetarian": false
+          "temperature": "warm",
+          "rating": 4.5
         },
         {
-          "id": "wrap_chicken",
-          "name": "Chicken Wrap",
-          "description": "Grilled chicken with vegetables in tortilla",
-          "price": 40000,
-          "category": "light_meals",
-          "available": true,
-          "vegetarian": false
+          "id": "PS006",
+          "name": "Eclair",
+          "description": "Choux pastry filled with vanilla cream and chocolate glaze",
+          "price": 33000,
+          "category": "pastries",
+          "available": false,
+          "temperature": "room temperature",
+          "rating": 4.2
         },
         {
-          "id": "wrap_veggie",
-          "name": "Veggie Wrap",
-          "description": "Mixed vegetables with hummus in tortilla",
-          "price": 35000,
-          "category": "light_meals",
+          "id": "PS007",
+          "name": "Muffin Blueberry",
+          "description": "Soft muffin loaded with fresh blueberries",
+          "price": 26000,
+          "category": "pastries",
           "available": true,
-          "vegetarian": true
+          "temperature": "room temperature",
+          "rating": 4.1
         },
         {
-          "id": "toast_avocado",
-          "name": "Avocado Toast",
-          "description": "Smashed avocado on sourdough bread",
-          "price": 28000,
-          "category": "light_meals",
+          "id": "PS008",
+          "name": "Bagel with Cream Cheese",
+          "description": "Fresh bagel served with cream cheese spread",
+          "price": 29000,
+          "category": "pastries",
           "available": true,
-          "vegetarian": true
+          "temperature": "room temperature",
+          "rating": 4.0
+        },
+        {
+          "id": "PS009",
+          "name": "Banana Bread",
+          "description": "Moist bread made with ripe bananas and walnuts",
+          "price": 24000,
+          "category": "pastries",
+          "available": true,
+          "temperature": "room temperature",
+          "rating": 4.3
+        },
+        {
+          "id": "PS010",
+          "name": "Scone",
+          "description": "British-style biscuit served with jam and clotted cream",
+          "price": 31000,
+          "category": "pastries",
+          "available": true,
+          "temperature": "warm",
+          "rating": 3.9
         }
       ]
     },
     {
-      "id": "snacks",
-      "name": "Snacks & Appetizers",
-      "description": "Small bites and sharing plates",
-      "items": [
+      "id": "SN",
+      "name": "Snacks",
+      "snacks": [
         {
-          "id": "cookies_chocolate",
-          "name": "Chocolate Chip Cookies",
-          "description": "Homemade chocolate chip cookies (2 pieces)",
-          "price": 15000,
+          "id": "SN001",
+          "name": "Sandwich Club",
+          "description": "Triple-layer sandwich with chicken, bacon, lettuce, and tomato",
+          "price": 45000,
           "category": "snacks",
           "available": true,
-          "vegetarian": true
+          "temperature": "room temperature",
+          "rating": 4.5
         },
         {
-          "id": "cookies_oatmeal",
-          "name": "Oatmeal Cookies",
-          "description": "Healthy oatmeal raisin cookies (2 pieces)",
-          "price": 14000,
+          "id": "SN002",
+          "name": "Grilled Cheese",
+          "description": "Melted cheese between two slices of buttered bread",
+          "price": 32000,
           "category": "snacks",
           "available": true,
-          "vegetarian": true
+          "temperature": "hot",
+          "rating": 4.2
         },
         {
-          "id": "brownie",
-          "name": "Chocolate Brownie",
-          "description": "Rich fudgy brownie square",
-          "price": 18000,
+          "id": "SN003",
+          "name": "Panini Chicken",
+          "description": "Grilled sandwich with seasoned chicken and vegetables",
+          "price": 42000,
           "category": "snacks",
           "available": true,
-          "vegetarian": true
+          "temperature": "hot",
+          "rating": 4.4
         },
         {
-          "id": "cheesecake_slice",
-          "name": "Cheesecake Slice",
-          "description": "Creamy New York style cheesecake",
-          "price": 28000,
+          "id": "SN004",
+          "name": "Caesar Salad",
+          "description": "Fresh romaine lettuce with Caesar dressing and croutons",
+          "price": 38000,
           "category": "snacks",
           "available": true,
-          "vegetarian": true
+          "temperature": "cold",
+          "rating": 4.1
         },
         {
-          "id": "carrot_cake",
-          "name": "Carrot Cake Slice",
-          "description": "Moist carrot cake with cream cheese frosting",
-          "price": 25000,
-          "category": "snacks",
-          "available": true,
-          "vegetarian": true
-        },
-        {
-          "id": "banana_bread",
-          "name": "Banana Bread Slice",
-          "description": "Homemade banana bread",
-          "price": 16000,
-          "category": "snacks",
-          "available": true,
-          "vegetarian": true
-        },
-        {
-          "id": "fruit_tart",
-          "name": "Seasonal Fruit Tart",
-          "description": "Pastry tart with seasonal fruits",
+          "id": "SN005",
+          "name": "French Fries",
+          "description": "Crispy golden potato fries with salt",
           "price": 22000,
           "category": "snacks",
           "available": true,
-          "vegetarian": true
+          "temperature": "hot",
+          "rating": 4.3
         },
         {
-          "id": "macarons",
-          "name": "French Macarons",
-          "description": "Colorful French macarons (3 pieces)",
-          "price": 30000,
+          "id": "SN006",
+          "name": "Chicken Wings",
+          "description": "Spicy buffalo wings with ranch dipping sauce",
+          "price": 48000,
           "category": "snacks",
           "available": true,
-          "vegetarian": true
+          "temperature": "hot",
+          "rating": 4.6
         },
         {
-          "id": "tiramisu",
+          "id": "SN007",
+          "name": "Nachos",
+          "description": "Tortilla chips with melted cheese and jalapeños",
+          "price": 35000,
+          "category": "snacks",
+          "available": false,
+          "temperature": "hot",
+          "rating": 4.0
+        },
+        {
+          "id": "SN008",
+          "name": "Potato Wedges",
+          "description": "Seasoned potato wedges with sour cream dip",
+          "price": 28000,
+          "category": "snacks",
+          "available": true,
+          "temperature": "hot",
+          "rating": 3.9
+        },
+        {
+          "id": "SN009",
+          "name": "Wrap Tuna",
+          "description": "Tuna salad wrapped in a soft tortilla with vegetables",
+          "price": 36000,
+          "category": "snacks",
+          "available": true,
+          "temperature": "room temperature",
+          "rating": 4.2
+        },
+        {
+          "id": "SN010",
+          "name": "Quesadilla",
+          "description": "Grilled tortilla filled with cheese and chicken",
+          "price": 40000,
+          "category": "snacks",
+          "available": true,
+          "temperature": "hot",
+          "rating": 4.4
+        }
+      ]
+    },
+    {
+      "id": "DS",
+      "name": "Desserts",
+      "items": [
+        {
+          "id": "DS001",
           "name": "Tiramisu",
-          "description": "Classic Italian coffee-flavored dessert",
+          "description": "Classic Italian dessert with coffee-soaked ladyfingers and mascarpone",
+          "price": 42000,
+          "category": "desserts",
+          "available": true,
+          "temperature": "cold",
+          "rating": 4.7
+        },
+        {
+          "id": "DS002",
+          "name": "Chocolate Cake",
+          "description": "Rich and moist chocolate cake with chocolate ganache",
+          "price": 38000,
+          "category": "desserts",
+          "available": true,
+          "temperature": "room temperature",
+          "rating": 4.5
+        },
+        {
+          "id": "DS003",
+          "name": "Cheesecake",
+          "description": "Creamy New York style cheesecake with berry topping",
+          "price": 45000,
+          "category": "desserts",
+          "available": true,
+          "temperature": "cold",
+          "rating": 4.6
+        },
+        {
+          "id": "DS004",
+          "name": "Ice Cream Sundae",
+          "description": "Vanilla ice cream with chocolate sauce and whipped cream",
           "price": 32000,
-          "category": "snacks",
+          "category": "desserts",
           "available": true,
-          "vegetarian": true
+          "temperature": "cold",
+          "rating": 4.3
         },
         {
-          "id": "muffin_bran",
-          "name": "Bran Muffin",
-          "description": "Healthy bran muffin with raisins",
-          "price": 15000,
-          "category": "snacks",
+          "id": "DS005",
+          "name": "Apple Pie",
+          "description": "Traditional apple pie with cinnamon and flaky crust",
+          "price": 35000,
+          "category": "desserts",
           "available": true,
-          "vegetarian": true
+          "temperature": "warm",
+          "rating": 4.2
         },
         {
-          "id": "granola_bar",
-          "name": "Homemade Granola Bar",
-          "description": "Oats, nuts, and honey granola bar",
-          "price": 12000,
-          "category": "snacks",
-          "available": true,
-          "vegetarian": true
+          "id": "DS006",
+          "name": "Panna Cotta",
+          "description": "Silky smooth Italian dessert with strawberry coulis",
+          "price": 36000,
+          "category": "desserts",
+          "available": false,
+          "temperature": "cold",
+          "rating": 4.4
         },
         {
-          "id": "mixed_nuts",
-          "name": "Mixed Nuts",
-          "description": "Roasted mixed nuts (100g)",
-          "price": 25000,
-          "category": "snacks",
+          "id": "DS007",
+          "name": "Brownies",
+          "description": "Fudgy chocolate brownies with nuts",
+          "price": 28000,
+          "category": "desserts",
           "available": true,
-          "vegetarian": true
+          "temperature": "room temperature",
+          "rating": 4.1
+        },
+        {
+          "id": "DS008",
+          "name": "Cookies Chocolate Chip",
+          "description": "Fresh baked cookies with chocolate chips",
+          "price": 24000,
+          "category": "desserts",
+          "available": true,
+          "temperature": "room temperature",
+          "rating": 4.0
+        },
+        {
+          "id": "DS009",
+          "name": "Gelato",
+          "description": "Italian-style ice cream available in various flavors",
+          "price": 30000,
+          "category": "desserts",
+          "available": true,
+          "temperature": "cold",
+          "rating": 4.5
+        },
+        {
+          "id": "DS010",
+          "name": "Crème Brûlée",
+          "description": "Classic French dessert with caramelized sugar top",
+          "price": 48000,
+          "category": "desserts",
+          "available": true,
+          "temperature": "room temperature",
+          "rating": 4.8
         }
       ]
     }
   ],
-  "menu_extras": {
-    "milk_alternatives": [
-      {
-        "name": "Soy Milk",
-        "price": 3000
-      },
-      {
-        "name": "Almond Milk",
-        "price": 5000
-      },
-      {
-        "name": "Oat Milk",
-        "price": 5000
-      },
-      {
-        "name": "Coconut Milk",
-        "price": 4000
-      }
-    ],
-    "syrups": [
-      {
-        "name": "Vanilla Syrup",
-        "price": 3000
-      },
-      {
-        "name": "Caramel Syrup",
-        "price": 3000
-      },
-      {
-        "name": "Hazelnut Syrup",
-        "price": 3000
-      },
-      {
-        "name": "Cinnamon Syrup",
-        "price": 3000
-      }
-    ],
-    "extra_shots": [
-      {
-        "name": "Extra Espresso Shot",
-        "price": 8000
-      },
-      {
-        "name": "Decaf Shot",
-        "price": 8000
-      }
-    ]
-  },
   "promotions": [
     {
       "id": "happy_hour",
@@ -1047,19 +664,9 @@
       "Free size upgrade on 5th visit each month"
     ]
   },
-  "allergen_info": {
-    "notice": "Please inform staff of any allergies. Items may contain or be prepared in facilities that process nuts, dairy, eggs, soy, and gluten.",
-    "symbols": {
-      "V": "Vegetarian",
-      "VG": "Vegan",
-      "GF": "Gluten-Free",
-      "NF": "Nut-Free",
-      "DF": "Dairy-Free"
-    }
-  },
   "wifi_info": {
-    "network_name": "KopiNusantara_Free",
-    "password": "coffee123",
+    "network_name": "KopiMaxstyle",
+    "password": "AnjayMaxstyle",
     "time_limit": "3 hours per session"
   }
 }
