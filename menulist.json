@@ -357,7 +357,7 @@
     {
       "id": "SN",
       "name": "Snacks",
-      "snacks": [
+      "items": [
         {
           "id": "SN001",
           "name": "Sandwich Club",
